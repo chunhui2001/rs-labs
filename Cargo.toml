@@ -2,5 +2,8 @@
 members = [
   "lab1",
   "lab2",
-  "lib1"
+  "lab3",
+  "lab4",
+  "lib1",
+  "lib2"
 ]

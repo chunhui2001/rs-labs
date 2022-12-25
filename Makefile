@@ -21,3 +21,9 @@ test:
 
 fmt:
 	cargo fmt
+
+new:
+	cargo new $(P) --bin
+
+newlab:
+	cargo new $(P) --lib
