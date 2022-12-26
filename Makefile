@@ -16,8 +16,8 @@ clear:
 run: clear fmt
 	cargo run -p $(P)
 
-test:
-	cargo test -p $(P)
+test: clear
+	RUST_BACKTRACE=1 cargo test -p $(P)
 
 fmt:
 	cargo fmt
