@@ -4,7 +4,7 @@ ROOT_DIR:=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
 P := lab1
 
-build:
+build: clear
 	cargo build
 
 clear:
